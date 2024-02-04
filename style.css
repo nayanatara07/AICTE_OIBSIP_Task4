@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #2d3b55;
+    --primary-color: #5f0f40;
     --secondary-color: #fff;
     --accent-color: #e8e9ec;
   }
@@ -15,8 +15,6 @@
     margin: 0 auto;
   }
 
-  /* Responsive Styles */
-
   @media (max-width: 768px) {
     .login-form,
     .Register-form {
@@ -24,8 +22,6 @@
       margin: 0 auto;
     }
   }
-
-  /* Login Form Styles */
 
   .login-form {
     background: var(--secondary-color);
@@ -116,7 +112,7 @@
   }
 
   .login-form .action button:hover {
-    background: #d8d8d8;
+    background: green;
   }
 
   .login-form .action button:nth-child(2) {
@@ -129,8 +125,6 @@
   .login-form .action button:nth-child(2):hover {
     background: #3c4d6d;
   }
-
-  /* Register Form Styles */
 
   .Register-form {
     background: #fff;
@@ -193,7 +187,7 @@
     font-family: 'Rubik', sans-serif;
     cursor: pointer;
     text-transform: uppercase;
-    background: purple;
+    background: green;
     color: white;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 0;
@@ -206,3 +200,5 @@
     z-index: 1;
     opacity: 0;
   }
+
+  
